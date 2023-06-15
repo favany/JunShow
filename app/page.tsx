@@ -43,12 +43,13 @@ export default function IndexPage() {
         <HoverCardDemo name="Semi Design" url="https://semi.design" />
         <HoverCardDemo name="Tailwind UI" url="https://tailwindui.com/" />
         <HoverCardDemo name="Tailwind CSS" url="https://tailwindcss.com/" />
+      </div>
+      <div className="flex gap-4">
         <HoverCardDemo name="@shadcn/ui" url="https://ui.shadcn.com/" />
         <HoverCardDemo name="Microsoft Fluent UI" url="https://developer.microsoft.com/en-us/fluentui#/" />
         <HoverCardDemo name="Google Material Design" url="https://m3.material.io/" />
         <HoverCardDemo name="MUI" url="https://mui.com/" />
         <HoverCardDemo name="Radix UI" url="https://www.radix-ui.com/" />
-        
       </div>
     </section>
   )
