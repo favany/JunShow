@@ -59,6 +59,19 @@ export default function IndexPage() {
         <HoverCardDemo name="React" url="https://react.dev" />
         <HoverCardDemo name="Vue" url="https://vuejs.org" />
       </div>
+      <div className="flex gap-8">
+        <div className="text-xl">AI :</div>
+        <HoverCardDemo name="BingGPT" url="https://chat.jun.one" />
+      </div>
+      <div className="flex gap-8">
+        <div className="text-xl">Front End Tech:</div>
+        <HoverCardDemo name="MDN" url="https://developer.mozilla.org" />
+        <HoverCardDemo name="Can I Use" url="https://caniuse.com" />
+        <HoverCardDemo name="W3C" url="https://www.w3.org" />
+        <HoverCardDemo name="Web.dev" url="https://web.dev" />
+        <HoverCardDemo name="Web Fundamentals" url="https://developers.google.com/web/fundamentals" />
+        <HoverCardDemo name="掘金" url="https://juejin.cn/" />
+      </div>
     </section>
   )
 }
