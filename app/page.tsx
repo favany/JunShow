@@ -36,20 +36,28 @@ export default function IndexPage() {
           GitHub
         </Link>
       </div>
-      <div className="flex gap-4">
+      <div className="flex gap-8">
         <div className="text-xl">UI Design:</div>
         <HoverCardDemo name="Arco Design" url="https://arco.design" />
         <HoverCardDemo name="Ant Design" url="https://ant.design" />
         <HoverCardDemo name="Semi Design" url="https://semi.design" />
-        <HoverCardDemo name="Tailwind UI" url="https://tailwindui.com/" />
-        <HoverCardDemo name="Tailwind CSS" url="https://tailwindcss.com/" />
+        <HoverCardDemo name="Tailwind UI" url="https://tailwindui.com" />
+        <HoverCardDemo name="Tailwind CSS" url="https://tailwindcss.com" />
       </div>
-      <div className="flex gap-4">
-        <HoverCardDemo name="@shadcn/ui" url="https://ui.shadcn.com/" />
+      <div className="flex gap-8">
+        <HoverCardDemo name="@shadcn/ui" url="https://ui.shadcn.com" />
         <HoverCardDemo name="Microsoft Fluent UI" url="https://developer.microsoft.com/en-us/fluentui#/" />
-        <HoverCardDemo name="Google Material Design" url="https://m3.material.io/" />
-        <HoverCardDemo name="MUI" url="https://mui.com/" />
-        <HoverCardDemo name="Radix UI" url="https://www.radix-ui.com/" />
+        <HoverCardDemo name="Google Material Design" url="https://m3.material.io" />
+        <HoverCardDemo name="MUI" url="https://mui.com" />
+        <HoverCardDemo name="Radix UI" url="https://www.radix-ui.com" />
+      </div>
+      <div className="flex gap-8">
+        <div className="text-xl">Front End Framework:</div>
+        <HoverCardDemo name="Next.js" url="https://nextjs.org" />
+        <HoverCardDemo name="Vitepress" url="https://vitepress.dev" />
+        <HoverCardDemo name="Vite" url="https://vitejs.dev" />
+        <HoverCardDemo name="React" url="https://react.dev" />
+        <HoverCardDemo name="Vue" url="https://vuejs.org" />
       </div>
     </section>
   )
