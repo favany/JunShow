@@ -9,13 +9,13 @@ export default function IndexPage() {
     <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
       <div className="flex max-w-[980px] flex-col items-start gap-2">
         <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
-          俊秀 · 云书签
+          Jun Show: Cloud Bookmarks
           <br className="hidden sm:inline" />
-          秀出我的东东！
+          Share TOP Resources all over the world.
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground">
-          Jun Show: My Cloud Bookmarks. <br className="hidden sm:inline" />
-          Build with @shadcn/ui.
+          俊秀 · 云书签 <br className="hidden sm:inline" />
+          分享全球最顶尖的设计、前端等资源 使用 Next.js 和 @shadcn/ui 构建
         </p>
       </div>
       <div className="flex gap-4">
