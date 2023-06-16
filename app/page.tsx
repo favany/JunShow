@@ -43,6 +43,7 @@ export default function IndexPage() {
         <HoverCardDemo name="Semi Design" url="https://semi.design" />
         <HoverCardDemo name="Tailwind UI" url="https://tailwindui.com" />
         <HoverCardDemo name="Tailwind CSS" url="https://tailwindcss.com" />
+        <HoverCardDemo name="Unsplash" url="https://unsplash.com" />
       </div>
       <div className="flex gap-8">
         <HoverCardDemo name="@shadcn/ui" url="https://ui.shadcn.com" />
