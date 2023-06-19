@@ -18,7 +18,7 @@ export default function IndexPage() {
           分享全球最顶尖的设计、前端等资源 使用 Next.js 和 @shadcn/ui 构建
         </p>
       </div>
-      <div className="flex gap-4">
+      {/* <div className="flex gap-4">
         <Link
           href={siteConfig.links.docs}
           target="_blank"
@@ -35,7 +35,7 @@ export default function IndexPage() {
         >
           GitHub
         </Link>
-      </div>
+      </div> */}
       <div className="flex gap-8">
         <div className="text-xl">UI Design:</div>
         <HoverCardDemo name="Arco Design" url="https://arco.design" />
@@ -59,6 +59,7 @@ export default function IndexPage() {
         <HoverCardDemo name="Vite" url="https://vitejs.dev" />
         <HoverCardDemo name="React" url="https://react.dev" />
         <HoverCardDemo name="Vue" url="https://vuejs.org" />
+        <HoverCardDemo name="Node.js" url="https://nodejs.org/en/docs" />
       </div>
       <div className="flex gap-8">
         <div className="text-xl">AI :</div>
@@ -66,12 +67,25 @@ export default function IndexPage() {
       </div>
       <div className="flex gap-8">
         <div className="text-xl">Front End Tech:</div>
+        <HoverCardDemo name="Three.js" url="https://threejs.org" />
+        <HoverCardDemo name="TypeScript" url="https://www.typescriptlang.org" />
         <HoverCardDemo name="MDN" url="https://developer.mozilla.org" />
         <HoverCardDemo name="Can I Use" url="https://caniuse.com" />
         <HoverCardDemo name="W3C" url="https://www.w3.org" />
         <HoverCardDemo name="Web.dev" url="https://web.dev" />
         <HoverCardDemo name="Web Fundamentals" url="https://developers.google.com/web/fundamentals" />
+        <HoverCardDemo name="Codepen" url="https://codepen.io/trending" />
         <HoverCardDemo name="掘金" url="https://juejin.cn/" />
+        <HoverCardDemo name="AntV" url="https://antv.vision/zh" />
+        <HoverCardDemo name="D3" url="https://d3js.org" />
+        <HoverCardDemo name="DataEase" url="https://dataease.io/" />
+        <HoverCardDemo name="Echarts" url="https://echarts.apache.org/zh/index.html" />
+        <HoverCardDemo name="Stackblitz" url="https://developer.stackblitz.com/" />
+        <HoverCardDemo name="CodeSandbox" url="https://codesandbox.io/" />
+      </div>
+      <div className="flex gap-8">
+        <div className="text-xl">VPN :</div>
+        <HoverCardDemo name="BingGPT" url="https://chat.jun.one" />
       </div>
     </section>
   )
